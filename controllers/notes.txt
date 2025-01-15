@@ -1,0 +1,11 @@
+Working: 
+Add
+delete
+edit Item
+search Item
+
+things to improve upon: 
+1. error pop-ups. 
+
+Name of the APP: 
+BirthdayDB

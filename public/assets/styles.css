@@ -1,0 +1,116 @@
+body{
+    background: #0d1521;
+    font-family: tahoma;
+    color: #989898;
+}
+
+#todo-table{
+    position: relative;
+    width: 95%;
+    background: #090d13;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 20px;
+    background: white;
+    /* background:#181c22; */
+    border: 0;
+    float: left;
+    font-size: 20px;
+    color: #989898;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    padding: 20px;
+    width: 30%;
+    float: left;
+    padding: 1.25rem;
+    background: #48b997;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.lines{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.3rem
+}
+.lines #Reload{
+    align-self: flex-end;
+    justify-self: flex-end;
+    /* background-color: beige; */
+
+}
+
+#logo{
+    align-self: center;
+    justify-self: center;
+    padding: 2rem
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    /* justify-content: flex-end; */
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+li .text{
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+
+li button{
+    justify-self: flex-end;
+    align-self: flex-end;
+    width: 10rem;
+    height: 1rem;
+    margin: 1rem;
+    /* margin-top: 0px; */
+    margin-left: auto;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    text-justify: center;
+    /* background-color: beige; */
+} 
+
+li #edit_button{
+    margin-left: 1rem ;
+}
+
+
+li:hover{
+    text-decoration: line-through;
+    /* background: rgba(0,0,0,0.2); */
+    background-color: rgba(255,255,255,0.2);
+}
+

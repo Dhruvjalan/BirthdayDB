@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title> BirthdayDB</title>
+        <link rel="icon" href="assets/logo.png" type="image/x-icon">
+
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity=""></script>
+        <link href="assets/styles.css" rel = "stylesheet" type="text/css"  />
+    </head>
+
+    <body>
+        <div id="logo"><img src = "assets/logo2.png" /></div>
+        <div id="bday-table">
+            <form>
+                <div class="lines">
+                <input type="text" name="name" placeholder="Name" autocomplete="on" />
+                <button type="submit" id="search" onClick="">Search</button>
+                </div>
+                <div class="lines">
+                <input type="text" name="dob" placeholder="DD-MM-YYYY" autocomplete="on"/>
+                <button type="submit" id="add" onClick="">Add Item</button>
+                </div>
+                <div class="lines">
+                <button type="submit" id="Reload" onClick="">Reload</button>
+                </div>
+                
+            </form>
+            <ul>
+                <%if(bdays){%>
+                <% for(var i=0; i<bdays.length ;i++){%>
+                    <%if (bdays[i].name && bdays[i].dob){%>
+                        <li><div class="text"><%=bdays[i].name%> <%=bdays[i].dob %></div><button id="del_button">Delete</button><button id="edit_button">Edit</button></li>
+                    <%}%>
+                <%}%>
+                <%}%>
+            </ul>
+        </div>
+        <script type="text/javascript" src="assets/bday-list.js"></script>
+
+
+    </body>
+</html>
