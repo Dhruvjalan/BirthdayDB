@@ -3,7 +3,7 @@
 An interactive application that lets you add, delete and edit people's birthday. 
 
 ## How to Use?
-just click on the link https://birthdaydb.onrender.com/bday The BirthdayDB Main page will open. now make the most use of the app. 
+just click on the link https://birthdaydb.onrender.com/bday the BirthdayDB main page will open. Now make the most use of the app. 
 
 ## No More forgetting Birthdays!
 
