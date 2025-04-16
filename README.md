@@ -38,8 +38,6 @@ Running Site: https://drive.google.com/file/d/1jxh0K6g5sFXMwW051sfN-RBDPYQgC6En/
 
 An interactive application that lets you add, delete and edit people's birthday. 
 
-## How to Use?
-just click on the link https://birthdaydb.onrender.com/bday the BirthdayDB main page will open. Now make the most use of the app. 
 
 ## No More forgetting Birthdays!
 
@@ -71,6 +69,10 @@ Running Site: https://drive.google.com/file/d/1jxh0K6g5sFXMwW051sfN-RBDPYQgC6En/
 
 
 ## How to use
+Just click on the link https://birthdaydb.onrender.com/bday the BirthdayDB main page will open. Now make the most use of the app.
+
+If the link doesnt work, 
+
 1. Download and extract zip
 2. Open the folder '../BirthdayDB-main' in the terminal/Powershell
 3 <pre>```<../BirthdayDB-main> nodemon app ```</pre>
