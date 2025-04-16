@@ -73,4 +73,5 @@ Running Site: https://drive.google.com/file/d/1jxh0K6g5sFXMwW051sfN-RBDPYQgC6En/
 ## How to use
 1. Download and extract zip
 2. Open the folder '../BirthdayDB-main' in the terminal/Powershell
-3. <pre>```<../BirthdayDB-main> nodemon app ```</pre>
+3 <pre>```<../BirthdayDB-main> nodemon app ```</pre>
+4. Open the link http://localhost:3000/bday
