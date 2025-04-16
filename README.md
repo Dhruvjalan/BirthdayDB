@@ -28,3 +28,9 @@ Find or search for the person who's birthday you want to edit.
 Click on Edit button in front of the name
 Enter the new birthday for that particular person
 Now the birthday has been editted. 
+
+##Look and Feel
+![image](https://github.com/user-attachments/assets/f47fa4c7-3cbd-4c6c-afd3-fd70b232fa17)
+Running Site: https://drive.google.com/file/d/1jxh0K6g5sFXMwW051sfN-RBDPYQgC6En/view?usp=sharing
+
+
